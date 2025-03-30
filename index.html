@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Theme Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <div class="calculator">
+            <div class="display">
+                <div class="previous-operand"></div>
+                <div class="current-operand">0</div>
+            </div>
+            <div class="buttons">
+                <button class="span-two clear">AC</button>
+                <button class="delete">DEL</button>
+                <button class="operator">÷</button>
+                <button class="number">7</button>
+                <button class="number">8</button>
+                <button class="number">9</button>
+                <button class="operator">×</button>
+                <button class="number">4</button>
+                <button class="number">5</button>
+                <button class="number">6</button>
+                <button class="operator">-</button>
+                <button class="number">1</button>
+                <button class="number">2</button>
+                <button class="number">3</button>
+                <button class="operator">+</button>
+                <button class="number span-two">0</button>
+                <button class="number">.</button>
+                <button class="equals">=</button>
+            </div>
+        </div>
+        <div class="history">
+            <h2>Calculation History</h2>
+            <div class="history-list"></div>
+        </div>
+        <div class="right-side">
+            <div class="calendar">
+                <div class="calendar-header">
+                    <button class="calendar-nav prev-month">&lt;</button>
+                    <h2 class="current-month"></h2>
+                    <button class="calendar-nav next-month">&gt;</button>
+                </div>
+                <div class="weekdays">
+                    <div>Sun</div>
+                    <div>Mon</div>
+                    <div>Tue</div>
+                    <div>Wed</div>
+                    <div>Thu</div>
+                    <div>Fri</div>
+                    <div>Sat</div>
+                </div>
+                <div class="days"></div>
+            </div>
+            <div class="clock">
+                <h2>Current Time</h2>
+                <div class="time-display">
+                    <span class="hours">00</span>
+                    <span class="separator">:</span>
+                    <span class="minutes">00</span>
+                    <span class="separator">:</span>
+                    <span class="seconds">00</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
